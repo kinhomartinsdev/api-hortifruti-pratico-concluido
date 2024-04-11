@@ -2,6 +2,7 @@
 import Route from '@ioc:Adonis/Core/Route'
 
 // Login para os 3 Users
+//API Concluido 
 
 Route.post("/login", "AuthController.login");
 Route.post("/logout", "AuthController.logout");
